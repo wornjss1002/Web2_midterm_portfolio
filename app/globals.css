@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NEXONLv1GothicLight";
+  font-weight: normal;
+  src: url("./fonts/NEXON Lv1 Gothic_OTF_TTF/TTF/NEXONLv1GothicLight.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "LondrinaSketch-Regular";
+  font-weight: normal;
+  src: url("./fonts/LondrinaSketch-Regular.ttf") format("truetype");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,11 +25,18 @@
     --foreground: #ededed;
   }
 }
-
+h1 {
+  font-family: LondrinaSketch-Regular;
+}
+nav {
+  font-family: NEXONLv1GothicLight;
+}
+h2 {
+  color: rgb(85, 146, 174);
+}
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
