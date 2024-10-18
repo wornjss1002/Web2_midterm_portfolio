@@ -7,6 +7,8 @@ import { FcLike } from "react-icons/fc";
 import { GiSoccerBall } from "react-icons/gi";
 import { IoMusicalNotes } from "react-icons/io5";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -14,11 +16,23 @@ export default function AboutPage() {
       <VideoBackground />
       <div className="w-full max-w-[900px] bg-white rounded-3xl p-[80px] z-10">
         <div className="flex gap-6 ">
-          <Image
-            src="/amasia.jpg"
-            alt="me"
-            className="h-auto max-w-[200px] rounded-2xl mb-4"
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              src="/amasia.jpg"
+              alt="me"
+              className="h-auto max-w-[200px] rounded-2xl mb-4"
+              width={200}
+              height={300}
+            />
+            <div className="flex gap-4">
+              <Link href={"https://github.com/wornjss1002"}>
+                <FaGithub className="text-5xl" />
+              </Link>
+              <Link href={"https://web2-midterm-portfolio.vercel.app/"}>
+                <TbWorldWww className="text-5xl text-blue-500" />
+              </Link>
+            </div>
+          </div>
           <div className="flex flex-col">
             <h2 className="text-3xl ml-[25%] mt-[3%]">Jae Gweon</h2>
             <div className="flex mt-[13%] p-2">

@@ -18,9 +18,11 @@ export default function VisionPage() {
           </h2>
           <div className="flex flex-col md:flex-row gap-6">
             <Image
-              src="https://img.freepik.com/premium-vector/network-technician-skilled-person-avatar-professor-character-cyber-security-consultant-concept_135661-1858.jpg"
+              src="/security_consultant.avif"
               alt="Goals"
               className="w-[300px] h-auto rounded-xl shadow-md"
+              width={300} // 명시적으로 width 지정
+              height={200}
             />
             <p className="text-gray-600 text-2xl">
               보안 컨설턴트는 조직이나 기업이 사이버 공격, 데이터 유출, 시스템
@@ -42,11 +44,15 @@ export default function VisionPage() {
                 src="https://cdn-icons-png.flaticon.com/512/9485/9485811.png"
                 alt="Web Icon"
                 className="w-[150px] h-auto rounded-xl shadow-md"
+                width={300} // 명시적으로 width 지정
+                height={200}
               />
               <Image
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI89gP_rjr2kZlU_iYLgidnTI6YT9rP9QAxw&s"
                 alt="Android Icon"
                 className="w-[150px] h-auto rounded-xl shadow-md"
+                width={300} // 명시적으로 width 지정
+                height={200}
               />
               <p className="text-gray-600 text-2xl">
                 저는 현재 웹과 모바일 앱 보안에 관심을 갖고 있습니다. 기본적인
