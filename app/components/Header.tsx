@@ -62,7 +62,7 @@ export default function Header() {
             <Link
               href="/vision"
               className={`${
-                pathname === "/github" ? "text-[black]" : "text-gray-400"
+                pathname === "/vision" ? "text-[black]" : "text-gray-400"
               } hover:text-[#414141] text-4xl ml-40 mr-40 mt-12`}
             >
               <div className="flex items-center">

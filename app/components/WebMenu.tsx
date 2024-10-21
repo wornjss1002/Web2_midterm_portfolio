@@ -7,7 +7,6 @@ const menuItems = [
   { name: "Command Injection", pdf: "/command_injection.pdf" },
   { name: "XS-Leak(Css Injection)", pdf: "/css_injection.pdf" },
   { name: "CSP(Cross Site Policy)", pdf: "/CSP.pdf" },
-  // 필요한 만큼 항목 추가
 ];
 
 const WebMenu = () => {
