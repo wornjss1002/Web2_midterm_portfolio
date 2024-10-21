@@ -5,7 +5,6 @@ const menuItems = [
   { name: "Android X Frida Function Hooking", pdf: "/hooking.pdf" },
   { name: "Deep Link", pdf: "/Deep_Link.pdf" },
   { name: "Broadcast Receiver", pdf: "/Broadcast.pdf" },
-  { name: "Unity X Android Game Develop", pdf: "/" },
 ];
 
 const AppMenu = () => {
